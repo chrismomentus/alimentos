@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="83dp"
+    android:layout_height="83dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SecondActivity" >
+
+    <ImageView
+        android:id="@+id/ivFoodAdapter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tvFoodAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
